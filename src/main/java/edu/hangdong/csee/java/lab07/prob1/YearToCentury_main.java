@@ -10,6 +10,10 @@ import java.util.Scanner; // import Scanner utility to get user input
  *
  */
 public class YearToCentury_main { // declare YearToCentury_main function
+	/**
+	 * static method main
+	 * @param args
+	 */
 	public static void main(String [] args)
 	{ // declare static method main
 		int yr = 0; // declare yr as integer as initialize it as 0
