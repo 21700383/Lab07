@@ -1,0 +1,3 @@
+Note.txt
+When sending 2 files at once, it seems to cause problem in reading as it's not showing 2 files but source codes for those 2 files.
+Will send the source codes differently at the end
