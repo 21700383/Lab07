@@ -13,7 +13,7 @@ public class Chicken {
 	private double price; // declare price as private double only used in this class
 	private int stars; // declare stars as private int and stars will be otherwise called rating
 	/**
-	 * Default constructor method which would run if nothing is input, setting everything to 0.
+	 * Constructor method which would run if nothing is input, setting everything to 0.
 	 */
 	public Chicken()
 	{ // declare Chicken method
@@ -28,39 +28,58 @@ public class Chicken {
 	 * @param stars
 	 */
 	public Chicken(String name, double price, int stars)
-	{  // declare 
-		this.name = name;
-		this.price = price;
-		this.stars = stars;
+	{  // declare public setter method Chicken
+		this.name = name; // put user input of name into the called menu's name
+		this.price = price; // put user input of price into the called menu's name
+		this.stars = stars; // put user input of stars into the called menu's starts
 	}
-
+	/**
+	 * Get method which returns the value of the called method's name
+	 * @return
+	 */
 	public String get_name()
-	{
-		return this.name;
+	{ // declare method
+		return this.name; // return the menu's name
 	}
-
+	/**
+	 * Get method which returns the value of the called method's price
+	 * @return
+	 */
 	public double get_price()
-	{
-		return this.price;
+	{ // declare method
+		return this.price; // return the menu's price
 	}
-
+	/**
+	 * Get method which returns the value of the called method's stars
+	 * @return
+	 */
 	public int get_stars()
-	{
-		return this.stars;
+	{// declare method
+		return this.stars; // return the menu's rating/stars
 	}
-
+	/**
+	 * Set method which changes the called menu's name to the input value
+	 * @return
+	 */
 	public void set_name(String name)
-	{
-		this.name = name;
+	{// declare method
+		this.name = name; // change the menu's name to input
 	}
-
+	/**
+	 * Set method which changes the called menu's price to the input value
+	 * @return
+	 */
 	public void set_price(double price)
-	{
-		this.price = price;
+	{// declare method
+		this.price = price;// change the menu's price to input
 	}
+	/**
+	 * Set method which changes the called menu's stars to the input value
+	 * @return
+	 */
 	public void set_stars(int stars)
-	{
-		this.stars = stars;
+	{// declare method
+		this.stars = stars;// change the menu's stars to input
 	}
 
 }
